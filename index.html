@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Music Player</title>
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Poiret+One&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="src/style.css"/>
+  <style>
+    #searchResults { margin: 5px 0; max-height:150px; overflow-y:auto; }
+    .yt-result { padding:6px; border-bottom:1px solid #ddd; cursor:pointer; }
+    .yt-result:hover { background:#f0f0f0; }
+  </style>
+</head>
+<body>
+  <div class="audio-player" id="skin">
+    <!-- your existing UI here -->
+    <div class="search-area">
+      <input id="ytSearch" type="text" placeholder="Search YouTube..." style="width:100%;padding:4px;"/>
+      <div id="searchResults"></div>
+    </div>
+
+    <p class="title"></p>
+    <div class="ctrl">
+      <i id="prev" class="fa fa-arrow-left"></i>
+      <i id="play-btn" class="fa fa-play"></i>
+      <i id="next" class="fa fa-arrow-right"></i>
+    </div>
+    <button id="saveBtn">💾 Save Playlist</button>
+  </div>
+
+  <div id="yt-player" style="display:none;"></div>
+
+ 
+</body>
+</html>
