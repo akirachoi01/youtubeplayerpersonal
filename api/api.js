@@ -1,7 +1,7 @@
  <script src="https://www.youtube.com/iframe_api"></script>
   <script>
-    const YT_API_KEY = 'AIzaSyCT5uYssh2bfXO_mOIMTwDVoQ0r5mxsstU';
-    const GH_TOKEN = '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'; 
+    const YT_API_KEY = '';
+    const GH_TOKEN = ''; 
     const GH_REPO = 'akirachoi01/ChatsNew';
     const GH_PATH = 'MusicPlayer/assets/playlist.json';
 
